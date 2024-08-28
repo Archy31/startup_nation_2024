@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "startup-nation-2024"
+version = "0.1.0"
+description = "The Project for Hackathon \"Startup Nation 2024\"."
+authors = ["Kubanychbek uulu Kairat <kubanychbekukairat@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.9"
+fastapi = "^0.112.2"
+alembic = "^1.13.2"
+python-dotenv = "^1.0.1"
+fastapi-users = "^13.0.0"
+fastapi-users-db-sqlalchemy = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

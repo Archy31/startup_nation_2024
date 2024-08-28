@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/mnt/Pets/startup_nation_2024/startup_nation_2024/venv"
+set -gx VIRTUAL_ENV "/run/media/starman/hdd/Pets/startup_nation_2024/startup_nation_2024/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

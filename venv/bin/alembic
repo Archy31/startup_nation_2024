@@ -1,4 +1,4 @@
-#!/mnt/Pets/startup_nation_2024/startup_nation_2024/venv/bin/python
+#!/run/media/starman/hdd/Pets/startup_nation_2024/startup_nation_2024/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
