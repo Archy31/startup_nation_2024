@@ -12,9 +12,8 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(60), unique=True)
     email = Column(String(100), nullable=True)
-    pswd = Column(String(100), unique=True)
+    t_number = Column(String(100), nullable=True)
+    password = Column(String(100), unique=True)
     
     def __repr__(self):
         return f"id: {self.id}, name: {self.name}"
-    
-    
